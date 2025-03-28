@@ -2,19 +2,17 @@ import { StyleSheet } from "react-native";
 
 const styles = StyleSheet.create({
     formContext: {
-        width:"100%",
-        height:"100%",
-        bottom:0,
+        flex:1,
         backgroundColor:"#ffffff",
+        marginTop:30,
         borderTopLeftRadius:30,
         borderTopRightRadius:30,
-        marginTop:30, 
+        paddingTop:30, 
     },
     form:{
         widht:"100%",
         height:"auto",
         marginTop:30,
-        paddingVertical:10,
         marginHorizontal:"10%"
     },
     formLabel:{
@@ -26,7 +24,7 @@ const styles = StyleSheet.create({
         borderRadius:50,
         backgroundColor:"#f6f6f6",
         height:40,
-        marginVertical:12,
+        marginVertical:6,
         paddingHorizontal:10,
     },
     buttonCalculator:{
