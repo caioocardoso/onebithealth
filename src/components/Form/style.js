@@ -5,15 +5,14 @@ const styles = StyleSheet.create({
         flex:1,
         backgroundColor:"#ffffff",
         marginTop:30,
+        paddingHorizontal:"10%",
+        paddingVertical:"10%",
         borderTopLeftRadius:30,
         borderTopRightRadius:30,
-        paddingTop:30, 
     },
     form:{
         widht:"100%",
         height:"auto",
-        marginTop:30,
-        marginHorizontal:"10%"
     },
     formLabel:{
         color:"#000000",
@@ -45,6 +44,10 @@ const styles = StyleSheet.create({
         color:"red",
         fontWeight:"bold",
         paddingHorizontal:5,
+    },
+    exibitionResultImc:{
+        widht:"100%",
+        height:"50%",
     }
 });
 
